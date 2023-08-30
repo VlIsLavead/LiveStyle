@@ -1,0 +1,29 @@
+#1A2B3D - Берлинская лазурь 89%
+#1E373C - Мышьяковый
+#0F4C6C - Берлинская лазурь 88%
+#1779AB - Лазурный 96%
+#468EB2 - Военно-воздушный цвет 94%
+#85B1C2 - Пороховая синь 91%
+
+
+
+.first{
+   background: url(../images/1.jpg)center center no-repeat; 
+   -webkit-background-size: cover;
+   height: 110vh;
+}
+
+из content
+.content{
+    background: url(../images/2.jpg)no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+
+}
+
+body{
+    height: 100%;
+    background: url(../images/background3.jpg); 
+}

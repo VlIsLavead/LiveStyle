@@ -1,0 +1,78 @@
+
+@media (max-width: 1500px){
+    body{
+        height: 100%;
+        weight: 100%;
+    }
+
+    .fontext{
+        display: none;
+    }
+
+    .hero_2{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1200px) {
+    body{
+        height: 100%;
+        weight: 100%;
+    }
+
+    .textad,
+    .button{
+        display: none;
+    }
+
+    .textmid{
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .nav-button{
+        display: block;
+    }
+
+    .mobile-nav-active{
+        display: flex;
+    }
+
+    .text_first,
+    .text_second,
+    .text_third{
+        margin-right: 150px;
+    }
+
+    .hero_1::before,
+    .hero_2::before,
+    .hero_3::before {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .texttop{
+        font-size: 30px;
+    }
+
+    .hero_1,
+    .hero_2,
+    .hero_3{
+        margin-right: -100px;
+        margin-left: -100px;
+        align-items: center;
+    }
+
+    .hero_2{
+        margin-left: 40px;
+    }
+
+    .hero_3{
+        margin-left: -50px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+}
